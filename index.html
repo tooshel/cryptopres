@@ -93,11 +93,11 @@
 
 					<ul>
 						<li>Encrypted file that you can mount as a new disk
-						<li>(or not a file, encrypt the disk)
+						<li>(or not a file, encrypt the partition)
 						<li>(or keep it as a file but have a hidden volume inside that file)
 					</ul>
 					<p>&nbsp;</p>
-					<p></p>
+					<p>source-available??</p>
 
 					<aside class="notes">
 						But, basically, just a file you can mount that looks like random garbage (even if you have no files, it's filled with random data) to keep your files secure (like a safe . . . you don't put 4 inches of metal all around your house . . . that's only for the important stuff)
@@ -126,12 +126,42 @@
 					<p>&nbsp;</p>
 					<p>This is the new slide. It's not at the end.</p>
 
+					<p>They make a big deal about "modes of operation".</p>
+					<p> Hash and Encruption Algorithms.</p>
+
 
 
 					<aside class="notes">
 						<br>There are lots of choices to make when you create a new partition but none of them are "wrong". And you don't need to remember any of the choices because by default it trys all the options to decrypt the disk (first four letters are "TRUE" on the partiton and some other thing and it knows it's decrypted)
 					</aside>
 				</section>
+
+				<section>
+					<h2>Why not encrypt the entire disk?</h2>
+
+					<h1 class="fragment slide-in">It's slow</h1>
+					<aside class="notes">
+						All data must pass though the CPU. No DMA Mode (and if you ever built computers you know how imporant DMA mode is)
+					</aside>
+				</section>
+
+				<section>
+					<h1>Plausible deniability</h1>
+
+					<h3>This is Snowden level stuff</h3>
+
+					<p>You can't KNOW it's a truecrypt file (unless you name the file mysecretstuff.This-Is-a-TrueCrypt-file.tc) but random data in a file is a pretty good indicator</p>
+
+					<p>The keys to decrypt the data are stored in ram (and they CAN and do keep your computer powered up to bring it to the lab)</p>
+
+					<p>Watch out for the evil maid (i.e. spyware that have keyloggers).</p>
+
+					<p>Government can't compel you to SAY your password (5th amendment, FOR NOW!) even though they can make you open a safe.</p>
+
+					<aside class="notes">
+					</aside>
+				</section>
+
 
 
 				<section>
