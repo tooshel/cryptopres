@@ -1,0 +1,14 @@
+
+.reveal .noborder {
+  border: 0 solid white;
+  margin:0;
+  padding:0;
+  background: none;
+  box-shadow: none;
+}
+
+.reveal .multiply {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}

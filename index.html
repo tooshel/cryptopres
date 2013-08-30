@@ -18,6 +18,9 @@
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<!-- OVERRIDE -->
+		<link rel="stylesheet" href="css/custom.css">
+
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -76,11 +79,13 @@
 				</section>
 
 				<section>
-					<h1>Why for everyoneone?</h1>
+					<h1>Why for everyone?</h1>
 
 					<p>I saw this tweet.</p>
 
 					<img height="200" src="images/crypto-command-line-twitter_alt.png">
+
+					<p class="fragment roll-in">I have no idea who that guy is.</p>
 
 					<aside class="notes">
 						I have no idea who that guy is.
@@ -97,10 +102,10 @@
 						<li>(or keep it as a file but have a hidden volume inside that file)
 					</ul>
 					<p>&nbsp;</p>
-					<p>source-available??</p>
 
 					<aside class="notes">
 						But, basically, just a file you can mount that looks like random garbage (even if you have no files, it's filled with random data) to keep your files secure (like a safe . . . you don't put 4 inches of metal all around your house . . . that's only for the important stuff)
+					<p>source available?</p>
 					</aside>
 				</section>
 
@@ -114,6 +119,9 @@
 						<li>Easy to use for everyone
 					</ul>
 					<p>&nbsp;</p>
+
+					<p class="fragment roll-in">Works on Windows Phone though.</p>
+					<p>J/K</p>
 					<p></p>
 
 					<aside class="notes">
@@ -127,7 +135,14 @@
 					<p>This is the new slide. It's not at the end.</p>
 
 					<p>They make a big deal about "modes of operation".</p>
-					<p> Hash and Encruption Algorithms.</p>
+					<p>Hash and encryption algorithms.</p>
+
+					<p class="fragment roll-in">
+						C<sub>i</sub></i> = <i>E</i><sub><i>K</i>1</sub>(<i>P<sub>i</sub></i> ^ (<i>E</i><sub><i>K</i>2</sub>(<i>n</i>) <img src="images/symbol-10-multiplication.png" class="noborder multiply"> <i>a<sup>i</sup></i>)) ^ (<i>E</i><sub><i>K</i>2</sub>(<i>n</i>) <img src="images/symbol-10-multiplication.png" class="noborder multiply"> <i>a<sup>i</sup></i>)
+
+						<br>
+						Nuff Said
+					</p>
 
 
 
@@ -137,6 +152,29 @@
 				</section>
 
 				<section>
+					<h1>No wrong options</h1>
+					<p>You don't need to know if you choose AES or Serpent-Twofish-AES or AES-Twofish-Serpent for the encryption algorithm and you don't need to know the hash either . . . TrueCrypt tries them all!</p>
+
+					<p></p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<h1>Hidden Volume</h1>
+					<h2>This is the only wrong option.</h2>
+
+					<h6 class="fragment roll-in">If you ask me</h6>
+
+					
+					<aside class="notes">
+						Data integredy matters and using this option you can accidentally override your actual important data.
+					</aside>
+				</section>
+
+
+
+				<section>
 					<h2>Why not encrypt the entire disk?</h2>
 
 					<h1 class="fragment slide-in">It's slow</h1>
@@ -144,6 +182,16 @@
 						All data must pass though the CPU. No DMA Mode (and if you ever built computers you know how imporant DMA mode is)
 					</aside>
 				</section>
+
+				<section>
+					<h1>So let's try it.</h1>
+					<h2></h2>
+
+					<p>
+					<aside class="notes">
+					</aside>
+				</section>
+
 
 				<section>
 					<h1>Plausible deniability</h1>
@@ -164,24 +212,6 @@
 
 
 
-				<section>
-					<h1>So let's try it.</h1>
-					<h2></h2>
-
-					<p>
-					<aside class="notes">
-					</aside>
-				</section>
-
-
-				<section>
-					<h1></h1>
-					<h2></h2>
-
-					<p>
-					<aside class="notes">
-					</aside>
-				</section>
 
 
 				<section>
@@ -204,8 +234,19 @@
 					<h1>END</h1>
 					<h2>Questions?</h2>
 
-
+					<p><small>Catch me on twitter: <a href="https://twitter.com/tooshel">@tooshel</a></small></p>
 				</section>
+
+
+				<section>
+					<h1></h1>
+					<h2></h2>
+
+					<p>
+					<aside class="notes">
+					</aside>
+				</section>
+
 
 			</div>
 
