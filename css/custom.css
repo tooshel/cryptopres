@@ -12,3 +12,20 @@
   height: 30px;
   width: 30px;
 }
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear: both;
+}
+
+.nocenter {
+	display: inline-block;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
